@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "C/C++: clang++ build and debug",
+            "name": "build and debug",
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/build/main",
@@ -16,7 +16,7 @@
             "externalConsole": false,
             "MIMode": "lldb",
             "preLaunchTask": "Build",
-            "miDebuggerPath": "${userHome}/.vscode/extensions/ms-vscode.cpptools-1.17.5-darwin-arm64/debugAdapters/lldb-mi/bin/lldb-mi",
+            "miDebuggerPath": "${userHome}/.vscode/extensions/ms-vscode.cpptools-1.21.5-darwin-arm64/debugAdapters/lldb-mi/bin/lldb-mi",
         }
     ]
 }
